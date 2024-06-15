@@ -11,5 +11,11 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
+        
+        Student s=new  Student();
+        s.setId(101);
+        s.setName("javaalien");
+        
+        System.out.println(s.getId() +" - " +s.getName());
     }
 }
